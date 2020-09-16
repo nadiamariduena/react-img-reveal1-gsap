@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/react-img-reveal1-gsap/static/css/main.87c58149.chunk.css",
+    "main.js": "/react-img-reveal1-gsap/static/js/main.f7505be4.chunk.js",
+    "main.js.map": "/react-img-reveal1-gsap/static/js/main.f7505be4.chunk.js.map",
+    "runtime-main.js": "/react-img-reveal1-gsap/static/js/runtime-main.5ab78b52.js",
+    "runtime-main.js.map": "/react-img-reveal1-gsap/static/js/runtime-main.5ab78b52.js.map",
+    "static/js/2.8e4af051.chunk.js": "/react-img-reveal1-gsap/static/js/2.8e4af051.chunk.js",
+    "static/js/2.8e4af051.chunk.js.map": "/react-img-reveal1-gsap/static/js/2.8e4af051.chunk.js.map",
+    "index.html": "/react-img-reveal1-gsap/index.html",
+    "precache-manifest.414d45c92d59fb974f8c3cebe45a8dd2.js": "/react-img-reveal1-gsap/precache-manifest.414d45c92d59fb974f8c3cebe45a8dd2.js",
+    "service-worker.js": "/react-img-reveal1-gsap/service-worker.js",
+    "static/css/main.87c58149.chunk.css.map": "/react-img-reveal1-gsap/static/css/main.87c58149.chunk.css.map",
+    "static/js/2.8e4af051.chunk.js.LICENSE.txt": "/react-img-reveal1-gsap/static/js/2.8e4af051.chunk.js.LICENSE.txt",
+    "static/media/people.webp": "/react-img-reveal1-gsap/static/media/people.d0ada4b4.webp"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5ab78b52.js",
+    "static/js/2.8e4af051.chunk.js",
+    "static/css/main.87c58149.chunk.css",
+    "static/js/main.f7505be4.chunk.js"
+  ]
+}
