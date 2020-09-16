@@ -52,4 +52,19 @@ npm i gh-pages --save-dev
 npm i gsap
 ```
 
+<br>
+<br>
+
+## Is WebP supported by all browsers?
+
+<p>
+According to caniuse, currently 79.2% of browsers support the WebP image format. That would include Chrome, Firefox, and Edge. Safari will support WebP in version 14, which is expected to be released in September 2020
+
+</p>
+
+<br>
+<br>
+<br>
+<br>
+
 #### Tutorial by: Wrong Akram
