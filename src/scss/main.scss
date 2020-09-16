@@ -1,0 +1,171 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.main {
+  .container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+    /*  visibility: hidden; so that we dont have anything from the start, 
+     because while you will set up the app.js anim stuff,things are going to flash and it can be a mess */
+    visibility: hidden;
+
+    /*
+    
+
+  useEffect(() => {
+    tl.to(container, 1, {
+    ***********     css: { visibility: "visible" },   ********
+    }).to(imageReveal, 1.4, { width: "0%", ease: Power2.easeInOut });
+   
+  });
+    
+    
+    */
+  }
+}
+
+.img-container {
+  width: 1000px;
+  height: 600px;
+  position: relative;
+  overflow: hidden;
+
+  /*
+
+If you notice the effect reveal is like the word says it, it REVEALS, and what it reveals is 
+the image under it. with the ::after selector you are going to create a mask based 
+on 100% from another source, the source is the parent of the mask ::after and the parent is .img-container
+, the mask is going to adapt its 100% to whatever the parent size is, in this case:
+
+   width: 1000px;
+    height: 600px; 
+    
+so the width and height, and the child (:after)
+is going to act as a curtain that you will open or reveal to see what is underneath.
+
+
+ let imageReveal = CSSRulePlugin.getRule(".img-container:after");
+
+*/
+
+  &:after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    right: 0;
+    background-color: rgb(255, 255, 255);
+  }
+
+  img {
+    width: 100%;
+    min-height: auto;
+    object-fit: cover;
+    position: absolute;
+  }
+}
+
+/*
+ 
+.main {
+  .container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+
+     visibility: hidden;
+
+
+   }
+ }
+ 
+ .img-container {
+   width: 60vw;
+   height: 80vh;
+   position: relative;
+   overflow: hidden;
+
+ 
+   &:after {
+     content: "";
+     position: absolute;
+     width: 100%;
+     height: 100%;
+     top: 0;
+     right: 0;
+     background-color: rgb(255, 255, 255);
+   }
+ 
+   img {
+     width: 100%;
+     min-height: auto;
+     object-fit: cover;
+     position: absolute;
+   }
+ }
+
+-------------------------------
+                                    FROM THE TUTORIAL
+                                    I dont know why i couldnt center the image with the settings
+                                    of the tutorial, that s why i came up with my own 2 styles that you can 
+                                    see above, it worked just fine.
+
+
+
+
+.main {
+  .container {
+    width: 1440px;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    background-color: darkorange;
+    visibility: hidden;
+  }
+}
+
+.img-container {
+  width: 1440px;
+  height: 960px;
+  position: relative;
+  overflow: hidden;
+  &:after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    right: 0;
+    background-color: darksalmon;
+  }
+
+  img {
+    width: 1440px;
+    position: absolute;
+  }
+}
+
+
+
+
+
+
+
+
+*/
