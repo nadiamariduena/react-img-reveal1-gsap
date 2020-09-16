@@ -25,3 +25,31 @@ useEffect(() => {
     .from(image, 1.4, { scale: 1.6, ease: Power2.easeInOut, delay: -1.5 });
 });
 ```
+
+<br>
+<br>
+<br>
+
+<hr>
+
+## Dependencies
+
+```javascript
+
+npm i react
+
+npm i react-dom
+
+npm i react-scripts
+
+npm i node-sass --save
+
+npm i autoprefixer@9.8.0
+
+npm i gh-pages --save-dev
+
+
+npm i gsap
+```
+
+#### Tutorial by: Wrong Akram
